@@ -145,3 +145,27 @@ nav ul{
     z-index:10;
 }
 
+/***********************************************************
+				    Media Queries
+***********************************************************/
+
+@media screen and (min-width: 800px){
+   h1{
+       font-size:3em;
+   }    
+
+   img.small{
+       display:none;
+   }
+
+   img.large{
+       display:inline-block;
+       width:200px;
+       float:left;
+       margin:10px;
+   }
+   .container{
+       max-width:1024px;
+       margin:0 auto;
+   }
+}
