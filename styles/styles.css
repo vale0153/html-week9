@@ -165,7 +165,29 @@ nav ul{
        margin:10px;
    }
    .container{
-       max-width:1024px;
-       margin:0 auto;
+      max-width:1024px;
+      margin:0 auto;
+  
    }
+   main{
+     width:calc(70% - 40px); 
+    
+     
+       float:left;
+
+   
+   }
+aside{
+    width:calc(30% - 40px);
+    float:right;
 }
+footer{
+    clear:both;
+}
+
+.hamburger{
+    display:none;
+}
+
+}
+
