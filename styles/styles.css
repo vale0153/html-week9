@@ -102,6 +102,12 @@ footer{
     font-size:0.7em;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /***********************************************************
 				    Hamburger Menu
 ***********************************************************/
@@ -187,6 +193,23 @@ footer{
 
 .hamburger{
     display:none;
+}
+
+nav ul{
+    display:block;
+}
+
+#menuchecker:checked + ul{
+    position:staic;
+}
+
+nav ul li{
+    float:left;
+    margin:20px 10px 0px;
+}
+
+nav ul li a{
+    text-decoration:none;
 }
 
 }
